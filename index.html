@@ -8,25 +8,57 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="sidebar.css">
 </head>
+/*todo lo demas que esta dentro seria un main*/
 <body>
     <aside class="sidebar">
         <div class="container">
-             <div class="sidebar__wrapper">
+            <div class="sidebar__wrapper">
                 <div class="sidebar__data">
-                    <img src="./image/avatar.jpg" alt="avatar" class="sidebar__avatar">
-                        
-                    <span class="sidebar__user">Emma Jones</span>
-                    <a href="#email" class="sidebar__link">Jones@gmail.com</a>
+                    <div class="sidebar__avatar">
+                        <img src="./image/avatar.jpg" alt="avatar" class="sidebar__portrait">
+                    </div>
+                    
+                        <span class="sidebar__user">Emma Jones</span>
+                        <a href="#email" class="sidebar__link">Jones@gmail.com</a>
                 </div>
-         
-                <nav class="menu">
-                    <label for="menu-toggle" class="menu__toggle">
-                       <i class="fa-solid fa-bars menu__icon"></i>
-                    </label>
-                </nav>
+             
+                    <nav class="menu">
+                        <label for="menu-toggle" class="menu__toggle">
+                           <i class="fa-solid fa-bars menu__icon"></i>
+                        </label>
+
+                    <div class="menu__section">
+                      <span class="menu__title">MENU</span>
+                        <ul class="menu__list">
+                            <li class="menu__item">Discover</li>
+                            <li class="menu__item">Trending</li>
+                            <li class="menu__item">Genre</li>
+                            <li class="menu__item">Speaker</li>
+                        </ul>
+                    </div>
+
+                     <div class="menu__section">
+                      <span class="menu__title">LIBRARY</span>
+
+                        <ul class="menu__list">
+                            <li class="menu__item">Resent</li>
+                            <li class="menu__item">Playlist</li>
+                            <li class="menu__item">Fovorites</li>
+                        </ul>
+                    </div>
+
+                    <div class="menu__section">
+                      <span class="menu__title">CUSTOMIZE</span>
+
+                        <ul class="menu__list">
+                            <li class="menu__item">New playlist</li>
+                            <li class="menu__item">Downloads</li>
+                            <li class="menu__item">Settings</li>
+                        </ul>
+                    </div>
+                    </nav>
+            </div>
         </div>
-        </div>
-       
     </aside>
 </body>
 </html>
