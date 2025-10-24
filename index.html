@@ -23,38 +23,76 @@
                 </div>
              
                     <nav class="menu">
+                        <input type="checkbox" id="menu-toggle" class="menu__checkbox">
                         <label for="menu-toggle" class="menu__toggle">
                            <i class="fa-solid fa-bars menu__icon"></i>
                         </label>
 
+                    <div class="menu__content">
                     <div class="menu__section">
-                      <span class="menu__title">MENU</span>
+                      
                         <ul class="menu__list">
-                            <li class="menu__item">Discover</li>
-                            <li class="menu__item">Trending</li>
-                            <li class="menu__item">Genre</li>
-                            <li class="menu__item">Speaker</li>
+                            <li class="menu__item menu__close">
+                                <label for="menu-toggle" class="menu__link">&times;</label>
+                                </li>
+                            <span class="menu__title">MENU</span>
+                            <li class="menu__item">
+                                <a href="#Discover" class="menu__link">
+                                    <i class="fa-solid fa-compass menu__symbol"></i>Discover</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#Trending" class="menu__link">
+                                    <i class="fa-solid fa-bolt menu__symbol"></i>Trending</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#Genre" class="menu__link">
+                                    <i class="fa-solid fa-file-lines menu__symbol"></i>Genre</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#Speaker" class="menu__link">
+                                    <i class="fa-solid fa-microphone menu__symbol"></i>
+                                    Speaker</a>
+                            </li>
                         </ul>
                     </div>
 
                      <div class="menu__section">
+                          <ul class="menu__list">
                       <span class="menu__title">LIBRARY</span>
-
-                        <ul class="menu__list">
-                            <li class="menu__item">Resent</li>
-                            <li class="menu__item">Playlist</li>
-                            <li class="menu__item">Fovorites</li>
+                            <li class="menu__item">
+                                <a href="#Resent" class="menu__link">
+                                    <i class="fa-solid fa-clock menu__symbol"></i>Resent</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#Playlist" class="menu__link">
+                                    <i class="fa-solid fa-circle-play menu__symbol"></i>Playlist</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#Favorites" class="menu__link">
+                                    <i class="fa-solid fa-heart menu__symbol"></i>Favorites</a>
+                            </li>
                         </ul>
                     </div>
 
                     <div class="menu__section">
+                         <ul class="menu__list">
                       <span class="menu__title">CUSTOMIZE</span>
+                            <li class="menu__item">
+                                <a href="#New-playlist" class="menu__link">
+                                    <i class="fa-solid fa-square-plus menu__symbol"></i>New playlist</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#Downloads" class="menu__link">
+                                    <i class="fa-solid fa-download menu__symbol"></i>Downloads
+                                </a>
 
-                        <ul class="menu__list">
-                            <li class="menu__item">New playlist</li>
-                            <li class="menu__item">Downloads</li>
-                            <li class="menu__item">Settings</li>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#Settings" class="menu__link">
+                                    <i class="fa-solid fa-gear menu__symbol"></i>Settings</a>
+                            </li>
                         </ul>
+                    </div>
                     </div>
                     </nav>
             </div>
