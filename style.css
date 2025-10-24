@@ -3,6 +3,7 @@
     --background-sidebar:#1C1C1C;
     --letters:#EAEAEA;
     --letters-secondary:#454545;
+    --color-hover:#314FEB;
     
 }
 *{
@@ -20,4 +21,3 @@ body{
     padding-left: 10px;
     padding-right: 10px;
 }
-

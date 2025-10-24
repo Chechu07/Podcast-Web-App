@@ -7,8 +7,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="sidebar.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="main-podcast.css">
 </head>
-/*todo lo demas que esta dentro seria un main*/
+
 <body>
     <aside class="sidebar">
         <div class="container">
@@ -22,81 +24,174 @@
                         <a href="#email" class="sidebar__link">Jones@gmail.com</a>
                 </div>
              
-                    <nav class="menu">
+                <nav class="menu">
                         <input type="checkbox" id="menu-toggle" class="menu__checkbox">
                         <label for="menu-toggle" class="menu__toggle">
                            <i class="fa-solid fa-bars menu__icon"></i>
                         </label>
 
                     <div class="menu__content">
-                    <div class="menu__section">
+                        <div class="menu__section">
                       
-                        <ul class="menu__list">
-                            <li class="menu__item menu__close">
+                            <ul class="menu__list">
+                                <li class="menu__item menu__close">
                                 <label for="menu-toggle" class="menu__link">&times;</label>
                                 </li>
-                            <span class="menu__title">MENU</span>
-                            <li class="menu__item">
-                                <a href="#Discover" class="menu__link">
+                                <span class="menu__title">MENU</span>
+                                <li class="menu__item">
+                                    <a href="#Discover" class="menu__link">
                                     <i class="fa-solid fa-compass menu__symbol"></i>Discover</a>
-                            </li>
-                            <li class="menu__item">
-                                <a href="#Trending" class="menu__link">
+                                </li>
+                                <li class="menu__item">
+                                    <a href="#Trending" class="menu__link">
                                     <i class="fa-solid fa-bolt menu__symbol"></i>Trending</a>
-                            </li>
-                            <li class="menu__item">
-                                <a href="#Genre" class="menu__link">
+                                </li>
+                                <li class="menu__item">
+                                    <a href="#Genre" class="menu__link">
                                     <i class="fa-solid fa-file-lines menu__symbol"></i>Genre</a>
-                            </li>
-                            <li class="menu__item">
-                                <a href="#Speaker" class="menu__link">
+                                </li>
+                                <li class="menu__item">
+                                    <a href="#Speaker" class="menu__link">
                                     <i class="fa-solid fa-microphone menu__symbol"></i>
                                     Speaker</a>
-                            </li>
-                        </ul>
-                    </div>
+                                </li>
+                            </ul>
+                        </div>
 
-                     <div class="menu__section">
-                          <ul class="menu__list">
-                      <span class="menu__title">LIBRARY</span>
-                            <li class="menu__item">
-                                <a href="#Resent" class="menu__link">
-                                    <i class="fa-solid fa-clock menu__symbol"></i>Resent</a>
-                            </li>
-                            <li class="menu__item">
-                                <a href="#Playlist" class="menu__link">
-                                    <i class="fa-solid fa-circle-play menu__symbol"></i>Playlist</a>
-                            </li>
-                            <li class="menu__item">
-                                <a href="#Favorites" class="menu__link">
-                                    <i class="fa-solid fa-heart menu__symbol"></i>Favorites</a>
-                            </li>
-                        </ul>
-                    </div>
+                        <div class="menu__section">
+                            <ul class="menu__list">
+                                <span class="menu__title">LIBRARY</span>
+                                <li class="menu__item">
+                                    <a href="#Resent" class="menu__link">
+                                        <i class="fa-solid fa-clock menu__symbol"></i>Resent</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="#Playlist" class="menu__link">
+                                        <i class="fa-solid fa-circle-play menu__symbol"></i>Playlist</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="#Favorites" class="menu__link">
+                                        <i class="fa-solid fa-heart menu__symbol"></i>Favorites</a>
+                                </li>
+                            </ul>
+                        </div>
 
-                    <div class="menu__section">
-                         <ul class="menu__list">
-                      <span class="menu__title">CUSTOMIZE</span>
-                            <li class="menu__item">
-                                <a href="#New-playlist" class="menu__link">
-                                    <i class="fa-solid fa-square-plus menu__symbol"></i>New playlist</a>
-                            </li>
-                            <li class="menu__item">
-                                <a href="#Downloads" class="menu__link">
-                                    <i class="fa-solid fa-download menu__symbol"></i>Downloads
-                                </a>
-
-                            </li>
-                            <li class="menu__item">
-                                <a href="#Settings" class="menu__link">
+                        <div class="menu__section">
+                            <ul class="menu__list">
+                                <span class="menu__title">CUSTOMIZE</span>
+                                 <li class="menu__item">
+                                     <a href="#New-playlist" class="menu__link">
+                                     <i class="fa-solid fa-square-plus menu__symbol"></i>New playlist</a>
+                                </li>
+                                <li class="menu__item">
+                                     <a href="#Downloads" class="menu__link">
+                                     <i class="fa-solid fa-download menu__symbol"></i>Downloads
+                                     </a>
+     
+                                </li>
+                                <li class="menu__item">
+                                    <a href="#Settings" class="menu__link">
                                     <i class="fa-solid fa-gear menu__symbol"></i>Settings</a>
-                            </li>
-                        </ul>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                    </div>
-                    </nav>
+                </nav>
             </div>
         </div>
     </aside>
+
+    <main class="main">
+        <div class="container">
+            <h1 class="main__title">TRENDING PODCAST</h1>
+            <img src="./image/img-portada.png" alt="imagen de portada" class="main__img">
+    
+            <section class="main__section">
+                <h2 class="main__subtitle">YOU MIGHT LIKE</h2>
+                <a href="#see-all" class="main__link">See all</a>
+            </section>
+    
+            <nav class="main__categories">
+                <ul class="main__categories-list">
+                    <li class="main__category">
+                        <a href="" class="main__category-link">
+                            New podcast</a>
+                    </li>
+                    <li class="main__category">
+                        <a href="" class="main__category-link">Popular</a>
+                    </li>
+                    <li class="main__category">
+                        <a href="" class="main__category-link">
+                            Business</a>
+                        </li>
+                    <li class="main__category">
+                        <a href="" class="main__category-link">Technology</a></li>
+                    <li class="main__category">
+                        <a href="" class="main__category-link">Psychology</a></li>
+                </ul>
+            </nav>
+
+            <section class="main__podcasts">
+                <article class="podcast">
+                    <img src="./image/heart.png" alt="corazón" class="podcast__img">
+                    
+                        <div class="podcast__content">
+                            <h3 class="podcast__title">Healthy lifestyle: The search for harmony</h3>
+                        </div>
+
+                        <div class="podcast__meta">
+                            <span class="podcast__author">Liam Martinez</span>
+                            <i class="fa-solid fa-dot podcast__dot"></i>
+                            <span class="podcast__episodes">12 episodes</span>
+                        </div>
+                        
+                        <div class="podcast__actions">
+                            <i class="fa-regular fa-heart podcast__icon"></i>
+                            <i class="fa-solid fa-ellipsis-vertical podcast__icon"></i>
+                        </div>
+                </article>
+
+                <article class="podcast">
+                    <img src="./image/clock.png" alt="corazón" class="podcast__img">
+                    
+                        <div class="podcast__content">
+                            <h3 class="podcast__title">Investing in yourself</h3>
+                        </div>
+
+                        <div class="podcast__meta">
+                            <span class="podcast__author">Noha Davis</span>
+                            <i class="fa-solid fa-dot podcast__dot"></i>
+                            <span class="podcast__episodes">16 episodes</span>
+                        </div>
+                        
+                        <div class="podcast__actions">
+                            <i class="fa-solid fa-heart"></i>
+                            <i class="fa-solid fa-ellipsis-vertical podcast__icon"></i>
+                        </div>
+                </article>
+
+               <article class="podcast">
+                    <img src="./image/photo.png" alt="corazón" class="podcast__img">
+                    
+                        <div class="podcast__content">
+                            <h3 class="podcast__title">How modern gadgets are changing our lives</h3>
+                        </div>
+
+                        <div class="podcast__meta">
+                            <span class="podcast__author">Jackson Brown</span>
+                            <i class="fa-solid fa-dot podcast__dot"></i>
+                            <span class="podcast__episodes">10 episodes</span>
+                        </div>
+                        
+                        <div class="podcast__actions">
+                            <i class="fa-regular fa-heart podcast__icon"></i>
+                            <i class="fa-solid fa-ellipsis-vertical podcast__icon"></i>
+                        </div>
+                </article>
+            </section>
+        </div>
+    </main>
+
+
 </body>
 </html>

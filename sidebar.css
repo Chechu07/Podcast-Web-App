@@ -2,8 +2,10 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    padding: 15px;
+    padding: 1rem;
     border-radius: 10px;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
     background-color: var(--background-sidebar);
 }
 .sidebar__data{
@@ -88,6 +90,9 @@
     cursor: pointer;
     color: var(--letters);
     transition: border-bottom 0.3s;
+}
+.menu__link:hover{
+    color: var(--color-hover);
 }
 .menu__symbol{
     margin-right: 0.5rem;
