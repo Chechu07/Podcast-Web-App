@@ -7,56 +7,55 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="sidebar.css">
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="main-podcast.css">
+    <link rel="stylesheet" href="title.css">
+    <link rel="stylesheet" href="imagen.css">
+    <link rel="stylesheet" href="section.css">
+    <link rel="stylesheet" href="categories.css">
+    <link rel="stylesheet" href="podcast.css">
 </head>
 
 <body>
     <aside class="sidebar">
-        <div class="container">
-            <div class="sidebar__wrapper">
-                <div class="sidebar__data">
-                    <div class="sidebar__avatar">
-                        <img src="./image/avatar.jpg" alt="avatar" class="sidebar__portrait">
-                    </div>
-                    
-                        <span class="sidebar__user">Emma Jones</span>
-                        <a href="#email" class="sidebar__link">Jones@gmail.com</a>
+        <div class="sidebar__wrapper">
+            <div class="sidebar__data">
+                <div class="avatar">
+                    <img src="./image/avatar.jpg" alt="avatar" class="avatar__img">
                 </div>
+                <span class="sidebar__user">Emma Jones</span>   
+                <span href="#email" class="sidebar__link">Jones@gmail.com</span>
+        </div>
              
-                <nav class="menu">
-                        <input type="checkbox" id="menu-toggle" class="menu__checkbox">
-                        <label for="menu-toggle" class="menu__toggle">
-                           <i class="fa-solid fa-bars menu__icon"></i>
-                        </label>
-
-                    <div class="menu__content">
-                        <div class="menu__section">
-                      
-                            <ul class="menu__list">
-                                <li class="menu__item menu__close">
-                                <label for="menu-toggle" class="menu__link">&times;</label>
-                                </li>
-                                <span class="menu__title">MENU</span>
-                                <li class="menu__item">
-                                    <a href="#Discover" class="menu__link">
-                                    <i class="fa-solid fa-compass menu__symbol"></i>Discover</a>
-                                </li>
-                                <li class="menu__item">
-                                    <a href="#Trending" class="menu__link">
-                                    <i class="fa-solid fa-bolt menu__symbol"></i>Trending</a>
-                                </li>
-                                <li class="menu__item">
-                                    <a href="#Genre" class="menu__link">
-                                    <i class="fa-solid fa-file-lines menu__symbol"></i>Genre</a>
-                                </li>
-                                <li class="menu__item">
-                                    <a href="#Speaker" class="menu__link">
-                                    <i class="fa-solid fa-microphone menu__symbol"></i>
-                                    Speaker</a>
-                                </li>
-                            </ul>
-                        </div>
+        <nav class="menu">
+            <input type="checkbox" id="menu-toggle" class="menu__checkbox">
+            <label for="menu-toggle" class="menu__toggle">
+               <i class="fa-solid fa-bars menu__icon"></i>
+            </label>
+                <div class="menu__content">
+                    <div class="menu__section">
+                        <ul class="menu__list">
+                            <button class="btn__close">
+                            <label for="menu-toggle" class="menu__link">&times;</label>
+                            </button>
+                            <span class="menu__title">MENU</span>
+                            <li class="menu__item">
+                                <a href="#Discover" class="menu__link">
+                                <i class="fa-solid fa-compass menu__symbol"></i>Discover</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#Trending" class="menu__link">
+                                <i class="fa-solid fa-bolt menu__symbol"></i>Trending</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#Genre" class="menu__link">
+                                <i class="fa-solid fa-file-lines menu__symbol"></i>Genre</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#Speaker" class="menu__link">
+                                <i class="fa-solid fa-microphone menu__symbol"></i>
+                                Speaker</a>
+                            </li>
+                        </ul>
+                    </div>
 
                         <div class="menu__section">
                             <ul class="menu__list">
@@ -96,102 +95,108 @@
                             </ul>
                         </div>
                     </div>
-                </nav>
-            </div>
+            </nav>
         </div>
     </aside>
 
-    <main class="main">
-        <div class="container">
-            <h1 class="main__title">TRENDING PODCAST</h1>
-            <img src="./image/img-portada.png" alt="imagen de portada" class="main__img">
-    
-            <section class="main__section">
-                <h2 class="main__subtitle">YOU MIGHT LIKE</h2>
-                <a href="#see-all" class="main__link">See all</a>
-            </section>
-    
-            <nav class="main__categories">
-                <ul class="main__categories-list">
-                    <li class="main__category">
-                        <a href="" class="main__category-link">
-                            New podcast</a>
+    <h1 class="title">TRENDING PODCAST</h1>
+    <img src="./image/img-portada.png" alt="imagen de portada" class="imagen">
+
+    <section class="section">
+        <h2 class="section__subtitle">YOU MIGHT LIKE</h2>
+        <a href="#see-all" class="section__link">See all</a>
+    </section>
+
+        <nav class="categories">
+            <ul class="categories__list">
+                <li class="category__item">
+                    <button href="" class="category__button">
+                        New podcast</button>
+                </li>
+                <li class="category__item">
+                    <button href="" class="category__button">Popular</button>
+                </li>
+                <li class="category__item">
+                    <button href="" class="category__button">
+                        Business</button>
                     </li>
-                    <li class="main__category">
-                        <a href="" class="main__category-link">Popular</a>
+                <li class="category__item">
+                     <button href="" class="category__button">Technology</button>
+                </li>
+                <li class="category__item">
+                    <button href="" class="category__button">Psychology</button>
+                </li>
+            </ul>
+        </nav>
+
+            
+            <section class="podcasts">
+                <ul class="podcasts__list">
+                    <li class="podcasts__item">
+                        <img src="./image/heart.png" alt="corazón" class="podcasts__img">
+                        <div class="podcasts__content">
+                            <h3 class="podcasts__title">
+                                Healthy lifestyle: The search for harmony
+                            </h3>
+                        
+                            <div class="podcasts__meta">
+                                <span class="podcasts__author">Liam Martinez</span>
+                                 <i class="fa-solid fa-circle podcasts__dot"></i>
+                                <span class="podcast__episodes">12 episodes</span>
+                            </div>
+                       </div>
+
+                        <div class="podcasts__actions">
+                            <i class="fa-regular fa-heart podcasts__icon"></i>
+                            <i class="fa-solid fa-ellipsis-vertical podcasts__icon"></i>
+                        </div>
                     </li>
-                    <li class="main__category">
-                        <a href="" class="main__category-link">
-                            Business</a>
-                        </li>
-                    <li class="main__category">
-                        <a href="" class="main__category-link">Technology</a></li>
-                    <li class="main__category">
-                        <a href="" class="main__category-link">Psychology</a></li>
                 </ul>
-            </nav>
 
-            <section class="main__podcasts">
-                <article class="podcast">
-                    <img src="./image/heart.png" alt="corazón" class="podcast__img">
-                    
-                        <div class="podcast__content">
-                            <h3 class="podcast__title">Healthy lifestyle: The search for harmony</h3>
-                        </div>
-
-                        <div class="podcast__meta">
-                            <span class="podcast__author">Liam Martinez</span>
-                            <i class="fa-solid fa-dot podcast__dot"></i>
-                            <span class="podcast__episodes">12 episodes</span>
-                        </div>
+                <ul class="podcasts__list">
+                    <li class="podcasts__item">
+                        <img src="./image/clock.png" alt="corazón" class="podcasts__img">
+                        <div class="podcasts__content">
+                            <h3 class="podcasts__title">
+                                Investing in yourself
+                            </h3>
                         
-                        <div class="podcast__actions">
-                            <i class="fa-regular fa-heart podcast__icon"></i>
-                            <i class="fa-solid fa-ellipsis-vertical podcast__icon"></i>
+                            <div class="podcasts__meta">
+                                <span class="podcasts__author">Noha Davis</span>
+                                <i class="fa-solid fa-circle podcasts__dot"></i>
+                                <span class="podcast__episodes">16 episodes</span>
+                            </div>
                         </div>
-                </article>
-
-                <article class="podcast">
-                    <img src="./image/clock.png" alt="corazón" class="podcast__img">
-                    
-                        <div class="podcast__content">
-                            <h3 class="podcast__title">Investing in yourself</h3>
-                        </div>
-
-                        <div class="podcast__meta">
-                            <span class="podcast__author">Noha Davis</span>
-                            <i class="fa-solid fa-dot podcast__dot"></i>
-                            <span class="podcast__episodes">16 episodes</span>
-                        </div>
-                        
-                        <div class="podcast__actions">
+                            
+                        <div class="podcasts__actions">
                             <i class="fa-solid fa-heart"></i>
                             <i class="fa-solid fa-ellipsis-vertical podcast__icon"></i>
                         </div>
-                </article>
+                    </li>
+                </ul>
 
-               <article class="podcast">
-                    <img src="./image/photo.png" alt="corazón" class="podcast__img">
-                    
-                        <div class="podcast__content">
-                            <h3 class="podcast__title">How modern gadgets are changing our lives</h3>
-                        </div>
-
-                        <div class="podcast__meta">
-                            <span class="podcast__author">Jackson Brown</span>
-                            <i class="fa-solid fa-dot podcast__dot"></i>
-                            <span class="podcast__episodes">10 episodes</span>
-                        </div>
+                
+                 <ul class="podcasts__list">
+                    <li class="podcasts__item">
+                         <img src="./image/photo.png" alt="corazón" class="podcasts__img">
+                        <div class="podcasts__content">
+                            <h3 class="podcasts__title">
+                                How modern gadgets are changing our lives
+                            </h3>
                         
-                        <div class="podcast__actions">
-                            <i class="fa-regular fa-heart podcast__icon"></i>
-                            <i class="fa-solid fa-ellipsis-vertical podcast__icon"></i>
+                            <div class="podcasts__meta">
+                                <span class="podcasts__author">Jackson Brown</span>
+                                 <i class="fa-solid fa-circle podcasts__dot"></i>
+                                <span class="podcast__episodes">10 episodes</span>
+                            </div>
+                        </div>  
+
+                        <div class="podcasts__actions">
+                            <i class="fa-regular fa-heart podcasts__icon"></i>
+                            <i class="fa-solid fa-ellipsis-vertical podcasts__icon"></i>
                         </div>
-                </article>
+                    </li>
+                </ul>
             </section>
-        </div>
-    </main>
-
-
 </body>
 </html>

@@ -5,7 +5,7 @@
     padding: 1rem;
     border-radius: 10px;
     margin-bottom: 3rem;
-    margin-top: 1rem;
+    margin: 1rem 0.9rem;
     background-color: var(--background-sidebar);
 }
 .sidebar__data{
@@ -14,7 +14,7 @@
     align-items: center;
     gap: 0.5rem;
 }
-.sidebar__portrait{
+.avatar__img{
     width: 3.5rem;
     object-fit: cover;
     border-radius: 50%;
@@ -38,6 +38,7 @@
     top: 8%;
     right: 12%;
     opacity: 0;
+    visibility: hidden;
     transform: translateY(-10%);
     pointer-events: none;
     border:1px solid var(--letters-secondary);
@@ -47,6 +48,7 @@
 }
 .menu__checkbox:checked ~ .menu__content{
     opacity: 1;
+    visibility: visible;
     transform: translateY(0);
     pointer-events: auto;
 }
@@ -74,11 +76,13 @@
 .menu__list.active{
     display: flex;
 }
-.menu__close{
+.btn__close{
     display: block;
     text-align: right;
     font-size: 1.5rem;
     cursor: pointer;
+    background: none;
+    border: none;
 }
 .menu__item{
     transition: color 0.3s;
@@ -86,7 +90,7 @@
 }
 .menu__link{
     text-decoration: none;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     cursor: pointer;
     color: var(--letters);
     transition: border-bottom 0.3s;

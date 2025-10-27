@@ -1,0 +1,28 @@
+.categories{
+    padding:0 10px;
+    margin-bottom: 2rem;
+    color: var(--letters-secondary);
+}
+.categories__list{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 0.9rem ;
+}
+.category__button{
+    font-size: 1.2rem;
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+    color: var(--letters-secondary);
+    background-color: var(--background-sidebar);
+    transition: 0.3s;
+}
+.category__button:hover{
+    color: var(--background-sidebar);
+    background: var(--letters);
+}
+.category__button.active{
+    color: var(--background-sidebar);
+    background: var(--letters);
+}

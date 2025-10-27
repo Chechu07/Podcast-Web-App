@@ -12,12 +12,6 @@
     box-sizing: border-box;
 }
 body{
-    background-color: var(--background-color);
-}
-.container{
-    max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 10px;
-    padding-right: 10px;
+    background-color: yellowgreen;
+    /* background-color: var(--background-color); */
 }
