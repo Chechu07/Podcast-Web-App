@@ -11,12 +11,12 @@
     padding: 0;
     gap: 1rem;
     border-radius: 20px;
-    background: red;
-    /* background: var(--background-sidebar); */
+    background: var(--background-sidebar);
 }
 .podcasts__item{
     display: flex;
-    padding: 1rem;
+    align-items: center;
+    padding: 1.3rem;
 }
 .podcasts__img{
    width: 20%;
@@ -28,6 +28,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-right: auto;
 }
 .podcasts__title{
    font-size: 1.3rem;
@@ -54,4 +55,9 @@
 .podcast__episodes{
     font-size: 1.3rem;
     font-weight: 500;
+}
+.podcasts__actions{
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
 }
