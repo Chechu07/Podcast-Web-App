@@ -12,6 +12,5 @@
     box-sizing: border-box;
 }
 body{
-    background-color: yellowgreen;
-    /* background-color: var(--background-color); */
+    background-color: var(--background-color);
 }

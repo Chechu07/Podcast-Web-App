@@ -1,0 +1,45 @@
+.creators{
+    display: flex;
+    flex-direction: column;
+    /* padding: 10px; */
+    color: var(--letters);
+    padding: 0 10px;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+.creators__list{
+    list-style: none;
+    margin: 0;
+    padding: 0;    
+}
+.creators__item{
+    display: flex;
+    align-items: center;
+}
+.creators__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: auto;
+}
+.creators_author{
+    font-size: 1.3rem;
+   font-weight: 500;
+   margin: 0 0 0.3rem 15px;
+   text-align: left;
+}
+.creators__episodes{
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    margin: 0 0 0 15px;
+    color: var(--letters-secondary);
+}
+.creators__button{
+    border: none;
+    font-size: 0.8rem;
+    border-radius: 30px;
+    padding: 0.60rem;
+    color: var(--color-hover);
+    background-color: var(--background-sidebar);
+}
