@@ -4,6 +4,7 @@
     color: var(--letters);
     padding: 0 10px;
     gap: 1rem;
+    margin-bottom: 1.5rem;
 }
 .podcasts__list{
     list-style: none;
