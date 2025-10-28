@@ -10,14 +10,14 @@
     list-style: none;
     margin: 0;
     padding: 0;
-    gap: 1rem;
-    border-radius: 20px;
-    background: var(--background-sidebar);
 }
 .podcasts__item{
     display: flex;
     align-items: center;
     padding: 1.3rem;
+    margin-bottom: 1rem;
+    border-radius: 20px;
+    background: var(--background-sidebar);
 }
 .podcasts__img{
    width: 20%;

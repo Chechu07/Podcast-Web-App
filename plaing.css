@@ -91,4 +91,7 @@
 }
 .plaing__icon--image{
     width: 35px;
+    border: none;
+    border-radius: 30px;
+    background: var(--letters);
 }
