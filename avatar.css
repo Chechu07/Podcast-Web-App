@@ -1,0 +1,5 @@
+.avatar__img{
+    width: 3.5rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
