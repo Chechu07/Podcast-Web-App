@@ -69,3 +69,30 @@
 .menu__symbol{
     margin-right: 0.5rem;
 }
+
+@media(min-width:768px){
+    .menu__toggle,
+    .menu__checkbox,
+    .btn__close{
+        display: none;
+    }
+    .menu__content{
+        position: static;
+        display: block;
+        opacity: 1;
+        visibility: visible;
+        transform: none;
+        pointer-events: auto;
+        border: none;
+        margin-bottom: 2rem;
+    }
+    .menu__item{
+        margin-bottom: 0.8rem;
+    }
+    .menu__link{
+        display: flex;
+        align-items: center;
+        gap: 0.8rem;
+        transition: color 0.3s aese;
+    }
+}

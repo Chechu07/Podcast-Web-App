@@ -12,5 +12,6 @@
     box-sizing: border-box;
 }
 body{
+    font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     background-color: var(--background-color);
 }

@@ -4,3 +4,17 @@
     margin-bottom: 1rem;
     color: var(--letters);
 }
+
+@media(min-width:768px){
+    .title{
+        margin-left: 260px;
+        margin-top: 2rem;
+        padding: 0;
+    }
+    .imagen{
+        display: block;
+        margin-left: 260px;
+        max-width: 65%;
+        height: auto;
+    }
+}
