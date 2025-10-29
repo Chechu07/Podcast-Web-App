@@ -25,3 +25,23 @@
     text-decoration: none;
     color: var(--letters-secondary);
 }
+
+@media(min-width:768px){
+    .sidebar{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 260px;
+        height: 100vh;
+        padding: 2rem 1.5rem;
+    }
+    .sidebar__wrapper{
+        margin: 0;
+        height: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
