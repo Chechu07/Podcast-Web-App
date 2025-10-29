@@ -9,7 +9,7 @@
     flex-wrap: wrap;
     gap: 0.9rem ;
 }
-.category__button{
+.categories__button{
     font-size: 1.2rem;
     border-radius: 20px;
     padding: 10px;
@@ -18,11 +18,11 @@
     background-color: var(--background-sidebar);
     transition: 0.3s;
 }
-.category__button:hover{
+.categories__button:hover{
     color: var(--background-sidebar);
     background: var(--letters);
 }
-.category__button.active{
+.categories__button.active{
     color: var(--background-sidebar);
     background: var(--letters);
 }
