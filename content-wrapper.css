@@ -1,0 +1,16 @@
+@media(min-width:1024px){
+    .content__wrapper{
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap:2rem;
+        padding-inline: 2rem;
+    }
+    .left__colum{
+        flex:2;
+    }
+    .right__column{
+        flex:1;
+        padding-top: 1.5rem;
+    }
+}

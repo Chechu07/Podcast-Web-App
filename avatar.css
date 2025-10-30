@@ -3,3 +3,11 @@
     object-fit: cover;
     border-radius: 50%;
 }
+
+@media(min-width:1024px){
+    .avatar__img{
+        width: 60px;
+        height: 60px;
+
+    }
+}

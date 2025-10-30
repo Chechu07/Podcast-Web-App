@@ -61,3 +61,10 @@
     align-items: center;
     gap: 0.8rem;
 }
+
+@media (min-width:1024px) {
+    .podcasts {
+        padding-left: 0; 
+        margin-left: 0; 
+    }
+}

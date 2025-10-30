@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="search.css">
     <link rel="stylesheet" href="creators.css">
     <link rel="stylesheet" href="plaing.css">
+    <link rel="stylesheet" href="content-wrapper.css">
 </head>
 
 <body>
@@ -104,183 +105,189 @@
         </div>
     </aside>
 
-    <h1 class="title">TRENDING PODCAST</h1>
-    <img src="./image/img-portada.png" alt="imagen de portada" class="imagen">
-
-    <section class="section">
-        <h2 class="section__subtitle">YOU MIGHT LIKE</h2>
-        <a href="#see-all" class="section__link">See all</a>
-    </section>
-
-        <nav class="categories">
-            <ul class="categories__list">
-                <li class="categories__item">
-                    <button href="" class="categories__button">
-                        New podcast</button>
-                </li>
-                <li class="categories__item">
-                    <button href="" class="categories__button">Popular</button>
-                </li>
-                <li class="categories__item">
-                    <button href="" class="categories__button">
-                        Business</button>
-                    </li>
-                <li class="categories__item">
-                     <button href="" class="categories__button">Technology</button>
-                </li>
-                <li class="categories__item">
-                    <button href="" class="categories__button">Psychology</button>
-                </li>
-            </ul>
-        </nav>
-     
-    <section class="podcasts">
-        <ul class="podcasts__list">
-            <li class="podcasts__item">
-                <img src="./image/heart.png" alt="corazón" class="podcasts__img">
-                <div class="podcasts__content">
-                    <h3 class="podcasts__title">
-                        Healthy lifestyle: The search for harmony
-                    </h3>
-                
-                    <div class="podcasts__meta">
-                        <span class="podcasts__author">Liam Martinez</span>
-                         <i class="fa-solid fa-circle podcasts__dot"></i>
-                        <span class="podcast__episodes">12 episodes</span>
-                    </div>
-                </div>
-                <div class="podcasts__actions">
-                    <i class="fa-regular fa-heart podcasts__icon"></i>
-                    <i class="fa-solid fa-ellipsis-vertical podcasts__icon"></i>
-                </div>
-            </li>
-       
-
-            <li class="podcasts__item">
-                <img src="./image/clock.png" alt="corazón" class="podcasts__img">
-                <div class="podcasts__content">
-                    <h3 class="podcasts__title">
-                        Investing in yourself
-                    </h3>
-                
-                    <div class="podcasts__meta">
-                        <span class="podcasts__author">Noha Davis</span>
-                        <i class="fa-solid fa-circle podcasts__dot"></i>
-                        <span class="podcast__episodes">16 episodes</span>
-                    </div>
-                </div>
-                    
-                <div class="podcasts__actions">
-                    <i class="fa-solid fa-heart"></i>
-                    <i class="fa-solid fa-ellipsis-vertical podcast__icon"></i>
-                </div>
-            </li>
-       
-            <li class="podcasts__item">
-                 <img src="./image/photo.png" alt="corazón" class="podcasts__img">
-                <div class="podcasts__content">
-                    <h3 class="podcasts__title">
-                        How modern gadgets are changing our lives
-                    </h3>
-                
-                    <div class="podcasts__meta">
-                        <span class="podcasts__author">Jackson Brown</span>
-                         <i class="fa-solid fa-circle podcasts__dot"></i>
-                        <span class="podcast__episodes">10 episodes</span>
-                    </div>
-                </div> 
-                <div class="podcasts__actions">
-                    <i class="fa-regular fa-heart podcasts__icon"></i>
-                    <i class="fa-solid fa-ellipsis-vertical podcasts__icon"></i>
-                </div>
-            </li>
-        </ul>
-    </section>
-
-    <section class="search">
-        <h2 class="search__title">QUICK SEARCH</h2>
-        <div class="search__wrapper">
-            <i class="fa-solid fa-magnifying-glass search__icon"></i>
-            <input type="text" placeholder="Search podcasts" class="search__input">
-        </div>
-    </section>
-    
-     <section class="section">
-        <h2 class="section__subtitle">TOP PODCASTERS</h2>
-        <a href="#see-all" class="section__link">See all</a>
-    </section>
-
-    <section class="creators">
-         <ul class="creators__list">
-            <li class="creators__item">
-                <div class="avatar">
-                    <img src="./image/avatar one.png" alt="" class="avatar__img">
-                </div>
-                
-                <div class="creators__content">
-                    <span class="creators_author">Ana Johnson</span>
-                    <span class="creators__episodes">25K followers</span>
-                </div>
-
-                <button class="creators__button">Follow</button>
-            </li>
-
-            <li class="creators__item">
-                <div class="avatar">
-                    <img src="./image/avatar three.png" alt="" class="avatar__img">
-                </div>
-                
-                <div class="creators__content">
-                    <span class="creators_author">Benjamina Thompson</span>
-                    <span class="creators__episodes">50K followers</span>
-                </div>
-
-               <button class="creators__button">Follow</button>
-            </li>
-
-                  <li class="creators__item">
-                <div class="avatar">
-                    <img src="./image/avatar two.png" alt="" class="avatar__img">
-                </div>
-                
-                <div class="creators__content">
-                    <span class="creators_author">Noah Davis</span>
-                    <span class="creators__episodes">120K followers</span>
-                </div>
-
-               <button class="creators__button">Follow</button>
-            </li>
-        </ul>
-    </section>
-
-    <section class="section">
-        <h2 class="section__subtitle">NOW PLAING</h2>
-    </section>
-
-    <section class="plaing">
-        <div class="plaing__wrapper">
-            <img src="./image/image.jpg" alt="imagen de una chica bajo un paragua" class="plaing__img">
-            <div class="plaing__info">
-                <h3 class="plaing__title">Psychological approaches to stress reduction</h3>
-                <span class="plaing__author">Liam Martinez</span>
-            </div>
-        </div>
- 
-        <div class="plaing__equalizer">
-            <div class="waveform"></div>
-            <div class="plaing__times">
-                <span class="plaing__time">24:32</span>
-            <span class="plaing__time">34:00</span>
-            </div>
-        </div>
+    <div class="content__wrapper">
+        <div class="left__column">
+            <h1 class="title">TRENDING PODCAST</h1>
+            <img src="./image/img-portada.png" alt="imagen de portada" class="imagen">
         
-        <div class="plaing__icons">
-            <img src="./image/add-to-playlist.png" alt="" class="plaing__icon--image">
-            <i class="fa-solid fa-backward-step plaing__icon"></i>
-            <i class="fa-solid fa-circle-pause plaing__icon--pause"></i>
-            <i class="fa-solid fa-forward-step plaing__icon"></i>
-            <i class="fa-solid fa-shuffle plaing__icon"></i>
+            <section class="section">
+                <h2 class="section__subtitle">YOU MIGHT LIKE</h2>
+                <a href="#see-all" class="section__link">See all</a>
+            </section>
+        
+                <nav class="categories">
+                    <ul class="categories__list">
+                        <li class="categories__item">
+                            <button href="" class="categories__button">
+                                New podcast</button>
+                        </li>
+                        <li class="categories__item">
+                            <button href="" class="categories__button">Popular</button>
+                        </li>
+                        <li class="categories__item">
+                            <button href="" class="categories__button">
+                                Business</button>
+                            </li>
+                        <li class="categories__item">
+                             <button href="" class="categories__button">Technology</button>
+                        </li>
+                        <li class="categories__item">
+                            <button href="" class="categories__button">Psychology</button>
+                        </li>
+                    </ul>
+                </nav>
+             
+            <section class="podcasts">
+                <ul class="podcasts__list">
+                    <li class="podcasts__item">
+                        <img src="./image/heart.png" alt="corazón" class="podcasts__img">
+                        <div class="podcasts__content">
+                            <h3 class="podcasts__title">
+                                Healthy lifestyle: The search for harmony
+                            </h3>
+                        
+                            <div class="podcasts__meta">
+                                <span class="podcasts__author">Liam Martinez</span>
+                                 <i class="fa-solid fa-circle podcasts__dot"></i>
+                                <span class="podcast__episodes">12 episodes</span>
+                            </div>
+                        </div>
+                        <div class="podcasts__actions">
+                            <i class="fa-regular fa-heart podcasts__icon"></i>
+                            <i class="fa-solid fa-ellipsis-vertical podcasts__icon"></i>
+                        </div>
+                    </li>
+               
+        
+                    <li class="podcasts__item">
+                        <img src="./image/clock.png" alt="corazón" class="podcasts__img">
+                        <div class="podcasts__content">
+                            <h3 class="podcasts__title">
+                                Investing in yourself
+                            </h3>
+                        
+                            <div class="podcasts__meta">
+                                <span class="podcasts__author">Noha Davis</span>
+                                <i class="fa-solid fa-circle podcasts__dot"></i>
+                                <span class="podcast__episodes">16 episodes</span>
+                            </div>
+                        </div>
+                            
+                        <div class="podcasts__actions">
+                            <i class="fa-solid fa-heart"></i>
+                            <i class="fa-solid fa-ellipsis-vertical podcast__icon"></i>
+                        </div>
+                    </li>
+               
+                    <li class="podcasts__item">
+                         <img src="./image/photo.png" alt="corazón" class="podcasts__img">
+                        <div class="podcasts__content">
+                            <h3 class="podcasts__title">
+                                How modern gadgets are changing our lives
+                            </h3>
+                        
+                            <div class="podcasts__meta">
+                                <span class="podcasts__author">Jackson Brown</span>
+                                 <i class="fa-solid fa-circle podcasts__dot"></i>
+                                <span class="podcast__episodes">10 episodes</span>
+                            </div>
+                        </div> 
+                        <div class="podcasts__actions">
+                            <i class="fa-regular fa-heart podcasts__icon"></i>
+                            <i class="fa-solid fa-ellipsis-vertical podcasts__icon"></i>
+                        </div>
+                    </li>
+                </ul>
+            </section>
         </div>
-    </section>
+   
+        <div class="right__column">
+            <section class="search">
+                <h2 class="search__title">QUICK SEARCH</h2>
+                <div class="search__wrapper">
+                    <i class="fa-solid fa-magnifying-glass search__icon"></i>
+                    <input type="text" placeholder="Search podcasts" class="search__input">
+                </div>
+            </section>
+            
+             <section class="section">
+                <h2 class="section__subtitle">TOP PODCASTERS</h2>
+                <a href="#see-all" class="section__link">See all</a>
+            </section>
+        
+            <section class="creators">
+                 <ul class="creators__list">
+                    <li class="creators__item">
+                        <div class="avatar">
+                            <img src="./image/avatar one.png" alt="" class="avatar__img">
+                        </div>
+                        
+                        <div class="creators__content">
+                            <span class="creators_author">Ana Johnson</span>
+                            <span class="creators__episodes">25K followers</span>
+                        </div>
+        
+                        <button class="creators__button">Follow</button>
+                    </li>
+        
+                    <li class="creators__item">
+                        <div class="avatar">
+                            <img src="./image/avatar three.png" alt="" class="avatar__img">
+                        </div>
+                        
+                        <div class="creators__content">
+                            <span class="creators_author">Benjamina Thompson</span>
+                            <span class="creators__episodes">50K followers</span>
+                        </div>
+        
+                       <button class="creators__button">Follow</button>
+                    </li>
+        
+                          <li class="creators__item">
+                        <div class="avatar">
+                            <img src="./image/avatar two.png" alt="" class="avatar__img">
+                        </div>
+                        
+                        <div class="creators__content">
+                            <span class="creators_author">Noah Davis</span>
+                            <span class="creators__episodes">120K followers</span>
+                        </div>
+        
+                       <button class="creators__button">Follow</button>
+                    </li>
+                </ul>
+            </section>
+        
+            <section class="section">
+                <h2 class="section__subtitle">NOW PLAING</h2>
+            </section>
+        
+            <section class="plaing">
+                <div class="plaing__wrapper">
+                    <img src="./image/image.jpg" alt="imagen de una chica bajo un paragua" class="plaing__img">
+                    <div class="plaing__info">
+                        <h3 class="plaing__title">Psychological approaches to stress reduction</h3>
+                        <span class="plaing__author">Liam Martinez</span>
+                    </div>
+                </div>
+         
+                <div class="plaing__equalizer">
+                    <div class="waveform"></div>
+                    <div class="plaing__times">
+                        <span class="plaing__time">24:32</span>
+                    <span class="plaing__time">34:00</span>
+                    </div>
+                </div>
+                
+                <div class="plaing__icons">
+                    <img src="./image/add-to-playlist.png" alt="" class="plaing__icon--image">
+                    <i class="fa-solid fa-backward-step plaing__icon"></i>
+                    <i class="fa-solid fa-circle-pause plaing__icon--pause"></i>
+                    <i class="fa-solid fa-forward-step plaing__icon"></i>
+                    <i class="fa-solid fa-shuffle plaing__icon"></i>
+                </div>
+            </section>
+        </div>
+    </div>
 </body>
 </html>

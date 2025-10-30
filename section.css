@@ -10,9 +10,3 @@
     text-decoration: none;
     color: var(--letters);
 }
-
-@media(min-width:768px){
-    .section{
-        margin-left: 260px;
-    }
-}
