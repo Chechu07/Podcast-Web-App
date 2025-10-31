@@ -95,3 +95,33 @@
     border-radius: 30px;
     background: var(--letters);
 }
+
+@media(min-width:1024px){
+    .plaing__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 1rem;
+    }
+    .plaing__img {
+        flex-shrink: 0;
+        width: 100%;
+        margin: 0 auto;
+        border-radius: 30px;
+        object-fit: cover;
+        display: flex;
+        justify-content: center;
+    }
+    .plaing__info {
+        flex: 1; 
+        min-width: 200px;
+    }
+    .plaing__title,
+    .plaing__author {
+        white-space: normal;
+        overflow: visible;   
+        text-overflow: clip; 
+        text-align: center;
+    }
+}

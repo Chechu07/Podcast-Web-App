@@ -39,12 +39,33 @@
     font-size: 0.8rem;
     border-radius: 30px;
     padding: 0.60rem;
+    cursor: pointer;
     color: var(--color-hover);
     background-color: var(--background-sidebar);
 }
 
 @media(min-width:1024px){
+    .creators{
+        padding: 0 1rem;
+        gap: 1.5rem;
+    }
     .creators__item{
+        padding: 0.8rem 1rem;
         margin-bottom: 1.5rem;
+    }
+    .creators__content{
+        /* flex:1; */
+        margin-left:0;
+        margin-right: 0.7rem;
+    }
+    .creators__button{
+        font-size: 1.2rem;
+        padding: 1.2rem 1rem;
+    }
+    .creators_author{
+        font-size: 1.4rem;
+    }
+    .creators__episodes{
+        font-size: 1.2rem;
     }
 }

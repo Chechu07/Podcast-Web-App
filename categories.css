@@ -26,3 +26,17 @@
     color: var(--background-sidebar);
     background: var(--letters);
 }
+
+@media(min-width:1024px){
+    .categories{
+        padding: 0;
+        margin-bottom: 2.5rem;
+    }
+    .categories__list{
+        gap: 1rem;
+    }
+    .categories__button{
+        font-size: 1.3rem;
+        padding: 0.6rem 1rem;
+    }
+}

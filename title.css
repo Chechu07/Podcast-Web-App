@@ -8,15 +8,11 @@
 @media(min-width:1024px){
     .left__column{
         padding-left: 16.25rem;
-        padding-top: 2rem;
+        padding-top: 1.5rem;
     }
     .title{
+        font-size: 1.2rem;
         margin: 0 0 1rem 0;
         padding: 0;
-    }
-    .imagen{
-        display: block;
-        width: clamp(40%, 65%, 70%);
-        height: auto;
     }
 }

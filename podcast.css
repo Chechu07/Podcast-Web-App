@@ -64,7 +64,36 @@
 
 @media (min-width:1024px) {
     .podcasts {
-        padding-left: 0; 
-        margin-left: 0; 
+        padding: 0;
+        margin-bottom: 2rem;
+    }
+    .podcasts__item{
+        padding: 1.5rem 2rem; 
+        gap: 1rem;
+    }
+    .podcasts__img{
+        width: 25%;
+        min-width: 80px;
+        padding: 0.8rem;
+        aspect-ratio: 1/1;
+    }
+    .podcasts__content{
+        margin-right: auto;
+        min-width: 0;
+    }
+    .podcasts__title{
+        font-size: 1.4rem;
+        margin-left: 1rem;
+    }
+    .podcasts__meta{
+        margin-left: 1rem;
+    }
+    .podcasts__actions{
+        gap: 1rem;
+        justify-content: flex-end;
+        min-width: 60px;
+    }
+    .podcasts__icon{
+        font-size: 1.5rem;
     }
 }
