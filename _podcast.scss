@@ -1,0 +1,108 @@
+@use 'variables' as vars;
+
+.podcasts{
+    display: flex;
+    flex-direction: column;
+    color: var(--letters);
+    padding: 0 10px;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+
+    @media (min-width:vars.$desktop) {
+        padding: 0;
+        margin-bottom: 2rem;
+        }
+
+    &_list{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    &__item{
+        display: flex;
+        align-items: center;
+        padding: 1.3rem;
+        margin-bottom: 1rem;
+        border-radius: 20px;
+        background: var(--background-sidebar);
+
+    @media (min-width:vars.$desktop) {
+        padding: 1.5rem 2rem; 
+        gap: 1rem;
+        }
+    }
+    &__img{
+        width: 20%;
+        padding: 1rem;
+        border-radius: 1rem;
+        background-color: var(--letters-secondary);
+
+    @media (min-width:vars.$desktop) {
+        width: 25%;
+        min-width: 80px;
+        padding: 0.8rem;
+        aspect-ratio: 1/1;
+        }
+    }
+    &__content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-right: auto;
+
+    @media (min-width:vars.$desktop) {
+        margin-right: auto;
+        min-width: 0;
+        }
+    }
+    &__title{
+        font-size: 1.3rem;
+        font-weight: 500;
+        margin: 0 0 0.3rem 15px;
+        text-align: left;
+
+    @media (min-width:vars.$desktop) {
+        font-size: 1.4rem;
+        margin-left: 1rem;
+       }
+    }
+    &__meta{
+        display: flex;
+        align-items: center;
+        gap: 0.4rem;
+        margin: 0 0 0 15px;
+        color: var(--letters-secondary);
+
+    @media (min-width:1024px) {
+        margin-left: 1rem;
+       }
+    }
+    &__author{
+        font-size: 1.3rem;
+    }
+    &__dot{
+        position: relative;
+        top: 0.1rem;
+        font-size: 0.4rem;
+    }
+    &__episodes{
+        font-size: 1.3rem;
+        font-weight: 500; 
+    }
+    &__actions{
+        display: flex;
+        align-items: center;
+        gap: 0.8rem;
+
+    @media (min-width:vars.$desktop) {
+        gap: 1rem;
+        justify-content: flex-end;
+        min-width: 60px;
+       }
+    }
+    @media (min-width:vars.$desktop) {
+      &__icon{
+        font-size: 1.5rem;
+       }
+}
+}

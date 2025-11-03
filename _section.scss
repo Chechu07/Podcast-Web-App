@@ -1,0 +1,30 @@
+@use 'variables' as vars;
+
+.section{
+    display: flex;
+    justify-content: space-between;
+    color: var(--letters);
+    padding: 0 10px;
+    margin-bottom: 2rem;  
+
+    @media(min-width:vars.$desktop){
+        padding: 0;
+        margin-bottom: 2.5rem;
+    }
+
+    &__link{
+        font-size: 1.3rem;
+        text-decoration: none;
+        color: var(--letters);
+
+    @media(min-width:vars.$desktop){
+        margin-right: 1rem;
+        font-size: 1.4rem;
+    }
+    }
+    @media(min-width:vars.$desktop){
+        &__subtitle{
+            font-size: 1.2rem;
+        } 
+    }
+}

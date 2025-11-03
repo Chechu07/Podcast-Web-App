@@ -1,0 +1,76 @@
+@use 'variables' as vars;
+
+.creators{
+    display: flex;
+    flex-direction: column;
+    color: var(--letters);
+    padding: 0 10px;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+
+    @media(min-width:vars.$desktop){
+        padding: 0 1rem;
+        gap: 1.5rem;
+    }
+
+    &__list{
+       list-style: none;
+       margin: 0;
+       padding: 0; 
+    }
+    &__item{
+       display: flex;
+       align-items: center;
+
+       @media(min-width:vars.$desktop){
+        padding: 0.8rem 1rem;
+        margin-bottom: 1.5rem;
+       }
+    }
+    &__content{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       margin-right: auto;
+
+       @media(min-width:vars.$desktop){
+        margin-left:0;
+        margin-right: 0.7rem;
+       }
+    }
+    &__author{
+       font-size: 1.3rem;
+       font-weight: 500;
+       margin: 0 0 0.3rem 15px;
+       text-align: left; 
+
+       @media(min-width:vars.$desktop){
+        font-size: 1.4rem;
+       }
+    }
+    &__episodes{
+       display: flex;
+       align-items: center;
+       gap: 0.4rem;
+       margin: 0 0 0 15px;
+       color: var(--letters-secondary);
+
+       @media(min-width:vars.$desktop){
+        font-size: 1.2rem;
+       }
+    }
+    &__button{
+       border: none;
+       font-size: 0.8rem;
+       border-radius: 30px;
+       padding: 0.60rem;
+       cursor: pointer;
+       color: var(--color-hover);
+       background-color: var(--background-sidebar); 
+
+       @media(min-width:vars.$desktop){
+        font-size: 1.2rem;
+        padding: 1.2rem 1rem;
+       }
+    }
+}

@@ -1,17 +1,19 @@
+@use 'variables' as vars;
+
 .title{
     font-size: 1.5rem;
     padding: 10px;
     margin-bottom: 1rem;
     color: var(--letters);
-}
 
-@media(min-width:1024px){
-    .left__column{
-        padding-top: 1.5rem;
-    }
-    .title{
+    @media(min-width:vars.$desktop){
+        .title{
         font-size: 1.2rem;
         margin: 0 0 1rem 0;
         padding: 0;
-    }
+        }
+        .left__column{
+            padding-top: 1.5rem;
+        }
+}
 }

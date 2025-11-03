@@ -1,0 +1,15 @@
+$background-color: #0D0D0D;
+$background-sidebar: #1C1C1C;
+$letters: #EAEAEA;
+$letters-secondary: #454545;
+$color-hover: #314FEB;
+
+$desktop:1024px;
+
+:root {
+  --background-color: #{$background-color};
+  --background-sidebar: #{$background-sidebar};
+  --letters: #{$letters};
+  --letters-secondary: #{$letters-secondary};
+  --color-hover: #{$color-hover};
+}

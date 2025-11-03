@@ -1,4 +1,6 @@
-@media(min-width:1024px){
+@use 'variables' as vars;
+
+@media(min-width:vars.$desktop){
     .content__wrapper{
         display: grid;
         grid-template-columns: 2fr 1fr;
