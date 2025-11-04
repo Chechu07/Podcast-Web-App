@@ -1,14 +1,4 @@
-@use 'variables' as vars;
-
 body{
     font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     background-color: var(--background-color);
-
-@media screen and (min-width: vars.$desktop) {
-    display: flex;
-    gap: 1.5rem;
-    padding: 1rem;
-    box-sizing: border-box;
-    overflow-x: hidden;
-    }
   }

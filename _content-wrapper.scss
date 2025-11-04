@@ -1,17 +1,16 @@
 @use 'variables' as vars;
 
-@media(min-width:vars.$desktop){
-    .content__wrapper{
+.content__wrapper{ 
+    @media (min-width: #{vars.$desktop}){ 
         display: grid;
         grid-template-columns: 2fr 1fr;
-        gap: 2rem;
+        gap: 1.5rem;
         width: 100%;
+        padding: 0;
         box-sizing: border-box;
     }
     .left__column,
-    .right__column,
-    .sidebar{
-        max-width: 100%;
+    .right__column{
         overflow: visible;
     }
 }
