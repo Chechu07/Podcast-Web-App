@@ -1,5 +1,13 @@
 @use 'variables' as vars;
 
+.content__wrapper{
+   display: block;
+    width: 100%;
+    overflow: hidden;
+
+    overflow-x: hidden;
+}
+
 .content__wrapper{ 
     @media (min-width: #{vars.$desktop}){ 
         display: grid;
@@ -12,5 +20,8 @@
     .left__column,
     .right__column{
         overflow: visible;
+        width: 100%;
+
+        max-width: 100%;
     }
 }

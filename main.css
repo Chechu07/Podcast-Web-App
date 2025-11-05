@@ -25,6 +25,7 @@
 body {
   font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: var(--background-color);
+  overflow-x: hidden;
 }
 
 .avatar__img {
@@ -44,7 +45,7 @@ body {
 @media (min-width: 1024px) {
   .sidebar {
     position: relative;
-    width: 190px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -231,6 +232,13 @@ body {
   }
 }
 
+.content__wrapper {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  overflow-x: hidden;
+}
+
 @media (min-width: 1024px) {
   .content__wrapper {
     display: grid;
@@ -244,6 +252,17 @@ body {
 .content__wrapper .left__column,
 .content__wrapper .right__column {
   overflow: visible;
+  width: 100%;
+  max-width: 100%;
+}
+
+.imagen {
+  display: block;
+  width: 100%;
+  max-width: 100vw;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: auto;
 }
 
 .title {
@@ -253,7 +272,7 @@ body {
   color: var(--letters);
 }
 @media (min-width: 1024px) {
-  .title .title {
+  .title {
     font-size: 1.2rem;
     margin: 0 0 1rem 0;
     padding: 0;
@@ -620,6 +639,7 @@ body {
     align-items: center;
     justify-content: flex-start;
     gap: 1rem;
+    padding: 0;
   }
 }
 .plaing__img {

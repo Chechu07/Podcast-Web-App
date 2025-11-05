@@ -1,9 +1,10 @@
 .imagen{
     display: block;
     width: 100%;
-    height: auto;
-    padding: 0 10px;
-    margin-bottom: 2rem; 
-    border-radius: 20px;
+    max-width: 100vw;
     object-fit: cover;
+    height: auto;
+    // border-radius: 20px;
+    // margin: 0 auto 2rem auto;
+    // padding: 0;
 }
