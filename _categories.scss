@@ -1,46 +1,43 @@
 @use 'variables' as vars;
 
 .categories{
-    padding:0 10px;
-    margin-bottom: 2rem;
-    color: var(--letters-secondary);
+   padding:0 10px;
+   margin-bottom: 2rem;
+   color: var(--letters-secondary);
 
-    @media(min-width:vars.$desktop){
-        padding: 0;
-        margin-bottom: 2.5rem;
-    }
-
-    &__list{
-       display: flex;
-       list-style: none;
-       flex-wrap: wrap;
-       gap: 0.9rem ;
-
-    @media(min-width:1024px){
-        gap: 1rem;
+  @media(min-width:vars.$desktop){
+      padding: 0;
+      margin-bottom: 2.5rem;
+   }  
+   &__list{
+      display: flex;
+      list-style: none;
+      flex-wrap: wrap;
+      gap: 0.9rem ;  
+   @media(min-width:1024px){
+      gap: 1rem;
+     }
+   }
+   &__button{
+      font-size: 1.1rem;
+      border-radius: 20px;
+      padding: 10px;
+      border: none;
+      color: var(--letters-secondary);
+      background-color: var(--background-sidebar);
+      transition: 0.3s;  
+      
+   @media(min-width:vars.$desktop){
+       font-size: 1rem;
+       padding: 0.6rem 1rem;
+   }  
+      &:hover{
+         color: var(--background-sidebar);
+         background: var(--letters);
       }
-    }
-    &__button{
-       font-size: 1.2rem;
-       border-radius: 20px;
-       padding: 10px;
-       border: none;
-       color: var(--letters-secondary);
-       background-color: var(--background-sidebar);
-       transition: 0.3s;
-
-    @media(min-width:vars.$desktop){
-        font-size: 1.3rem;
-        padding: 0.6rem 1rem;
-    }
-
-       &:hover{
-          color: var(--background-sidebar);
-          background: var(--letters);
-       }
-       &.active{
-          color: var(--background-sidebar);
-          background: var(--letters);
-       }
-    }
+      &.active{
+         color: var(--background-sidebar);
+         background: var(--letters);
+      }
+   }
 }

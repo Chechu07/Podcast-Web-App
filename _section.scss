@@ -13,18 +13,23 @@
     }
 
     &__link{
-        font-size: 1.3rem;
+        font-size: 0.95rem;
         text-decoration: none;
         color: var(--letters);
 
     @media(min-width:vars.$desktop){
         margin-right: 1rem;
-        font-size: 1.4rem;
+        font-size: 1rem;
     }
     }
+    &__subtitle{
+        font-size: 1.1rem;
+
     @media(min-width:vars.$desktop){
         &__subtitle{
-            font-size: 1.2rem;
+            font-size: 1rem;
         } 
     }
+    }
+   
 }
