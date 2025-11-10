@@ -2,11 +2,12 @@
 
 .log-out{
     margin-top: 1.5rem;
-    padding: 1rem;
     font-size: 1rem;
+    padding: 1rem;
     color: var(--letters);
 
     @media(min-width:vars.$desktop){ 
-       margin-top: 25.5rem;
+       margin-top: 1.5rem;
+       padding: 0;
         }
 }
