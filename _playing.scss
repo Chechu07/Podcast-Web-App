@@ -126,8 +126,11 @@
     }
    &__icons{
       display: flex;
-      justify-content: space-between;
+      justify-content: center;
+      gap: 1rem;
+      // justify-content: space-between;
       align-items: center;
+      flex-wrap: wrap; 
       cursor: pointer;
    }
    &__icon{
@@ -138,21 +141,31 @@
       }
       
       &--pause{
-        font-size: 2rem;
+        font-size: 3rem;
 
    @media(min-width:vars.$desktop){
-      font-size: 1.2rem;
+      font-size: 2rem;
         }
       }
       &--image{
         width: 25px;
         border: none;
         border-radius: 30px;
+        margin-right: 4%;
         background: var(--letters);
 
    @media(min-width:vars.$desktop){
       width: 15px;
+      margin-right: 7%;
         }
       }
+   }
+
+   .fa-shuffle {
+     margin-left: 4%;
+
+   @media(min-width:vars.$desktop){
+      margin-right: 7%;
+        }
    }
 }

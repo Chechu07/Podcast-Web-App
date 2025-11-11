@@ -779,8 +779,10 @@ body {
 }
 .playing__icons {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 1rem;
   align-items: center;
+  flex-wrap: wrap;
   cursor: pointer;
 }
 .playing__icon {
@@ -792,22 +794,32 @@ body {
   }
 }
 .playing__icon--pause {
-  font-size: 2rem;
+  font-size: 3rem;
 }
 @media (min-width: 1024px) {
   .playing__icon--pause {
-    font-size: 1.2rem;
+    font-size: 2rem;
   }
 }
 .playing__icon--image {
   width: 25px;
   border: none;
   border-radius: 30px;
+  margin-right: 4%;
   background: var(--letters);
 }
 @media (min-width: 1024px) {
   .playing__icon--image {
     width: 15px;
+    margin-right: 7%;
+  }
+}
+.playing .fa-shuffle {
+  margin-left: 4%;
+}
+@media (min-width: 1024px) {
+  .playing .fa-shuffle {
+    margin-right: 7%;
   }
 }
 
